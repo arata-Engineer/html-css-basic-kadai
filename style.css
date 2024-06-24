@@ -8,7 +8,7 @@ html {
   h1 {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    text-shadow: 1px 1px 2px blue;
+    text-shadow: 1px 1px 2px blueviolet;
     font-size: 2rem;
     letter-spacing: 1.2em;
   }
@@ -19,7 +19,7 @@ html {
     color: skyblue;
   }
   
-  h2, #basic, .blue {
+  h2, .blue {
     color: #87ceeb;
   }
 
