@@ -58,6 +58,15 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
+  /*スマートフォン用のスタイルをデフォルトで非表示 */
+  #nav-sp {
+    display: none;
+  }
+  /* PCのハンバーガーメニューをデフォルトで非表示 */
+  #menu-sp{
+    display: none;
+  }
+  
 }
 
 /*======================
