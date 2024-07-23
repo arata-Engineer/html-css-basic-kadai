@@ -1,12 +1,13 @@
 // 本日の日付を取得する
-window.onload = function () {
-    var today = new Date();
-    console.log(today);
+const today = new Date();
 
 
 // 年月日を取得する
-console.log("年=" + today.getFullYear());
-console.log("月=" + (today.getMonth()+1));
-console.log("日=" + today.getDate());
+const year = today.getFullYear(); 
 
-}
+// 月は0から始まるため+1する
+const month = today.getMonth() + 1; 
+
+const day = today.getDate();
+
+console.log(year + "年" + month + "月" + day + "日");
