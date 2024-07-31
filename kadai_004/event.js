@@ -1,6 +1,6 @@
 // ロードイベントが発生された場合
 $(window).on('load', ()=> {
-    onsole.log('loadイベントが発生しました');
+    console.log('loadイベントが発生しました');
 });
 
 $(function() {
